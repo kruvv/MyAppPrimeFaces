@@ -5,4 +5,4 @@
 
 Простая авторизация клиента с логином (user) и пролем (123).
 
-Ссылка на источник http://www.quizful.net/post/jsf2primefaces
+Ссылка на источник http://www.quizful.net/post/jsf2primefaces.
