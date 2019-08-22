@@ -28,6 +28,19 @@ public class MainBean {
 		this.password = password;
 	}
 
+	public String getText() {
+		return text;
+	}
+
+	public void setText(String text) {
+		this.text = text;
+	}
+
+	public String returnFormIn() {
+		return "main";
+
+	}
+
 	// Метод используемый нами в качестве простейшей авторизации, проверяет имя и
 	// пароль пользователя и возвращает имя страницы на которую произойдет переход
 	public String checkUser() {
@@ -36,13 +49,5 @@ public class MainBean {
 		} else {
 			return "loginfailed";
 		}
-	}
-
-	public String getText() {
-		return text;
-	}
-
-	public void setText(String text) {
-		this.text = text;
 	}
 }
